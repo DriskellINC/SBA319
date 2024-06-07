@@ -9,10 +9,6 @@ const postSchema = new Schema({
     type: String,
     required: true,
   },
-  author: {
-    type: String,
-    required: true,
-  },
   comments: [
     {
       content: String,
