@@ -15,4 +15,6 @@ router.patch('/:id', usersCtrl.updateUser);
 // DELETE route to delete a user by ID
 router.delete('/:id', usersCtrl.deleteUser);
 
+//added all routes per requirements
+
 module.exports = router;

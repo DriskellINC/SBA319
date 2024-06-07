@@ -1,5 +1,7 @@
 const { Schema, model } = require('../config/db-connection');
 
+//built out schema for users
+
 const userSchema = Schema({
   email: {
     type: String,
@@ -13,7 +15,7 @@ const userSchema = Schema({
     min: 5,
   },
   skills: {
-    
+
   }
 
 });

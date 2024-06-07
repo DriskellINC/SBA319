@@ -1,5 +1,7 @@
 const { Schema, model } = require('mongoose');
 
+//post schemas
+
 const postSchema = new Schema({
   title: {
     type: String,
@@ -12,7 +14,7 @@ const postSchema = new Schema({
   comments: [
     {
       content: String,
-      
+
     },
   ],
 });

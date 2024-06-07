@@ -1,4 +1,3 @@
-// routes/posts.js
 const { Router } = require('express');
 const postsCtrl = require('../controllers/posts');
 
