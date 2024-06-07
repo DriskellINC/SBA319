@@ -12,7 +12,7 @@ const postSchema = new Schema({
   comments: [
     {
       content: String,
-      author: String,
+      
     },
   ],
 });

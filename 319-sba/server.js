@@ -22,7 +22,7 @@ app.use((req, res, next) => {
 app.use('/users', userRouter);
 
 app.get('/', (req, res) => {
-  res.send('319-SBA');
+  res.send('319-SBA is working');
 });
 
 // Error Handling Middlware

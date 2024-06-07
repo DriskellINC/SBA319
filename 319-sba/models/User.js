@@ -12,6 +12,10 @@ const userSchema = Schema({
     unique: true,
     min: 5,
   },
+  skills: {
+    
+  }
+
 });
 
 module.exports = model('User', userSchema);
